@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=argp-standalone
-PKG_VERSION:=1.3
+PKG_VERSION:=1.4-test2
 PKG_RELEASE:=2
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://www.lysator.liu.se/~nisse/misc/
-PKG_HASH:=dec79694da1319acd2238ce95df57f3680fea2482096e483323fddf3d818d8be
+PKG_HASH:=cf8f880ff79cf0a59d7542a294fe95be51f6a96c463e8a48b3a5ee75c94b154b
 PKG_MAINTAINER:=Ted Hess <thess@kitschensync.net>
 
 PKG_LICENSE:=LGPL-2.1

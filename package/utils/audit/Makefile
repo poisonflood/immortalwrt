@@ -6,13 +6,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=audit-userspace
-PKG_VERSION:=3.1.5
+PKG_VERSION:=4.0.3
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/linux-audit/$(PKG_NAME).git
 PKG_SOURCE_VERSION:=v$(PKG_VERSION)
-PKG_MIRROR_HASH:=60f479476d4f1b0beadbe3e516ea67490d38ca9b01db53e56f52b1731340d5bb
+PKG_MIRROR_HASH:=f021ad41ea74d31db4b548d5462c60133290d8122b6376f87ee88b104273a08a
 
 PKG_MAINTAINER:=Thomas Petazzoni <thomas.petazzoni@bootlin.com>
 PKG_LICENSE:=GPL-2.0-or-later LGPL-2.1-or-later

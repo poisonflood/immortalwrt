@@ -9,10 +9,10 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=drv_vmmc
-PKG_VERSION:=1.9.0
+PKG_VERSION:=1.10.3.5
 PKG_RELEASE:=5
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_HASH:=707f515eb727c032418c4da67d7e86884bb56cdc2a606e8f6ded6057d8767e57
 PKG_SOURCE_URL:=@OPENWRT
 PKG_MAINTAINER:=John Crispin <john@phrozen.org>

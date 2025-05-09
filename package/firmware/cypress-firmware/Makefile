@@ -3,14 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=cypress-firmware
-PKG_VERSION_REAL:=5.10.9-2022_0909
-PKG_VERSION:=$(subst _,.,$(subst -,.,$(PKG_VERSION_REAL)))
+PKG_VERSION:=6.1.97.2025.0219
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/Infineon/ifx-linux-firmware/
-PKG_MIRROR_HASH:=cbdd862fbaad08f5905482038e8a97fafea9bab5673d65370d90ef248c4172d1
-PKG_SOURCE_VERSION:=release-v$(PKG_VERSION_REAL)
+PKG_MIRROR_HASH:=d270f3aa50c7e7054cde2e470e063b9cdcb253664fd92e803550bd0d12ae092c
+PKG_SOURCE_VERSION:=release-v6.1.97-2025_0219
 
 PKG_MAINTAINER:=Álvaro Fernández Rojas <noltari@gmail.com>
 PKG_LICENSE_FILES:=LICENCE

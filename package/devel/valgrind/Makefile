@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=valgrind
-PKG_VERSION:=3.23.0
+PKG_VERSION:=3.25.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=https://sourceware.org/pub/valgrind/
-PKG_HASH:=c5c34a3380457b9b75606df890102e7df2c702b9420c2ebef9540f8b5d56264d
+PKG_HASH:=295f60291d6b64c0d90c1ce645634bdc5361d39b0c50ecf9de6385ee77586ecc
 
 PKG_MAINTAINER:=Felix Fietkau <nbd@nbd.name>
 PKG_LICENSE:=GPL-2.0+

@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=readline
-PKG_VERSION:=8.2
+PKG_VERSION:=8.2.13
 PKG_RELEASE:=2
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=@GNU/readline
-PKG_HASH:=3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35
+PKG_HASH:=0e5be4d2937e8bd9b7cd60d46721ce79f88a33415dd68c2d738fb5924638f656
 
 PKG_LICENSE:=GPL-3.0-or-later
 PKG_LICENSE_FILES:=COPYING
@@ -45,7 +45,7 @@ define Package/libreadline/description
 	history expansion on previous commands.
 endef
 
-HOST_CONFIGURE_ARGS += --disable-shared --with-pic
+HOST_CONFIGURE_ARGS += --disable-shared --with-pic --enable-static
 CONFIGURE_ARGS += --with-curses --disable-install-examples
 
 HOST_CONFIGURE_VARS += \

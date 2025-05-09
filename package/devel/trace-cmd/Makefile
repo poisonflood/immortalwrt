@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=trace-cmd
-PKG_VERSION:=3.3
+PKG_VERSION:=3.3.2
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=$(PKG_NAME)-v$(PKG_VERSION)
-PKG_SOURCE_URL:=https://git.kernel.org/pub/scm/utils/trace-cmd/trace-cmd
-PKG_MIRROR_HASH:=7a4f9c3a18a01012cd76ab9a0a2c4447aed8293d005679d5228ef2aef243445c
+PKG_SOURCE_URL:=@KERNEL/utils/trace-cmd/trace-cmd.git
+PKG_MIRROR_HASH:=911a3b3d4636de7e39f601a6edc0a3c3cf497035b982a2ee633f50c1fcebe666
 
 PKG_LICENSE:=GPL-2.0-only
 PKG_LICENSE_FILES:=COPYING
